@@ -1,0 +1,24 @@
+//气泡式弹层
+.callout{
+	position: relative;
+	padding:10px;
+	width: 200px;
+	border-radius:4px;
+	background-color: #D9F5FF;
+	color: #45859D;
+	line-height: 1.5;
+	border: 1px solid #D5E8FF;
+	&:after{
+		content: "";
+		position: absolute;
+		top: -.4em;
+		left: 1em;
+		padding: .35em;
+		color: inherit;
+		border: inherit;
+		background-color: inherit;
+		border-right: 0;
+		border-bottom:0;
+		transform:rotate(45deg);
+	}
+}
