@@ -102,7 +102,7 @@
                             <span class="nav-label">菜单结构</span>
                             <i class="fa fa-caret-right pull-right"></i>
                         </a>
-                    </li>
+                        </li>
                 </ul>
             </nav>
         </aside>
