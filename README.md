@@ -1,7 +1,5 @@
 # aries-design
-
-
-- ver 0.1.0
+- ver 1.0
 
 ## 样例
 - http://gametob.github.io/aries-design/
@@ -11,10 +9,8 @@
 
 [CHANGELOG.md]
 
-## 分为3个分支
-* | - master 【左右结构的后台系统元素及场景分类，皮肤：谜底绿】
-* | - bootstrap【左右结构的后台系统元素及场景分类，皮肤：后台蓝】
-* | - gh-pages【作为一个静态网站生成器，一个简化的构建过程基于GitHub建立起网站页面】
+##分支
+* | - master 【左右结构的后台系统元素及场景分类，皮肤：后台蓝】
 
 
 ## 目录结构
@@ -56,7 +52,7 @@ gulp vendor
 
 ## LESS分类
 
-> * ui-css.less /import less
+> * bootstrap.less /import less
 > * non-responsive.less /重置bootstrap中对响应式做的控制。
 > * scaffolding.less /框架主要的组成部分。
 > * table.less /通用表格组件，可带表头表尾，用于显示各类数据。
@@ -67,8 +63,4 @@ gulp vendor
 > * tab.less /标签切换组件。
 > * list.less /列表类。
 
-
-
-
-一个适用于后台系统的组件及场景展示
 
