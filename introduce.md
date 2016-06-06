@@ -1,4 +1,4 @@
-# ToB Design
+# aries-design
 
 - category: 0
 - order: 0
@@ -22,10 +22,6 @@
 
 - 开发版:
 
-
-## 谁在使用
-
-- ToB团队
 
 ##  Design introduce
 

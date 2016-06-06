@@ -23,6 +23,4 @@ font-family: "Helvetica Neue",Helvetica,"Hiragino Sans GB","STHeitiSC-Light";
 font-family: "Helvetica Neue",Helvetica,"Hiragino Sans GB","STHeitiSC-Light","Microsoft YaHei","微软雅黑",Arial,sans-serif;
 ```
 
-## 字体使用
-
 
