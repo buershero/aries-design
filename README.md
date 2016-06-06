@@ -52,15 +52,20 @@ gulp vendor
 
 ## LESS分类
 
-> * bootstrap.less /import less
-> * non-responsive.less /重置bootstrap中对响应式做的控制。
-> * scaffolding.less /框架主要的组成部分。
-> * table.less /通用表格组件，可带表头表尾，用于显示各类数据。
-> * form.less /通用表单样式，可基于此表单样式构建各类功能表单。
-> * sidebar.less /左侧菜单样式，支持三级菜单。
-> * modal.less /不同场景的弹出窗。
-> * alert.less /通用信息提示框样式，共有提示、成功、警告、等待等。
-> * tab.less /标签切换组件。
-> * list.less /列表类。
-
-
+ > * bootstrap.less /import less
+｜--- bootstrap 第三方
+｜---｜---variabels mixins（variabels）
+｜---｜---mixins（import mixins）
+｜---｜---theme（主题LESS）
+｜---｜---base（基础类）
+｜---｜---mixins（mixins）
+｜---｜---normalize（normalize）
+｜---｜---utility（responsive/theme/utility）
+｜---｜---components（组件类）
+｜---｜---print（排版）
+｜--- platform
+｜---｜---layout（system layout）
+｜---｜---platform-variables（自定义变量）
+｜---｜---re-panel（自定义面板）
+｜---｜---animation（特殊场景动画）
+｜--- bootstrap.less（import less）最终编译文件
