@@ -103,6 +103,13 @@
                             <i class="fa fa-caret-right pull-right"></i>
                         </a>
                         </li>
+                        <li {% if subItem=="aside" %}class="unfold" {% endif %}>
+                            <a href="media.html">
+                                <i class="fa fa-windows"></i>
+                                <span class="nav-label">media</span>
+                                <i class="fa fa-caret-right pull-right"></i>
+                            </a>
+                        </li>
                 </ul>
             </nav>
         </aside>

@@ -1,4 +1,4 @@
-content -->
+
 <div class="content">
 	<div class="row">
 		<div class="col-xs-4">
@@ -185,6 +185,7 @@ content -->
 			</div>
 		</div>
 		<!-- /边框内圆角 -->
+		
 	</div>
 	
 </div>
