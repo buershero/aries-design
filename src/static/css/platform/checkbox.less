@@ -1,0 +1,18 @@
+/*checkbox*/
+
+input[type="checkbox"] + label::before {
+    content: "\2713"; /*对勾*/
+    display: inline-block;
+    vertical-align: .2em;
+    width: 16px;
+    height: 16px;
+    border-radius: .2em;
+    background: yellow;
+    text-indent: .15em;
+    line-height: .65;
+    text-align: center;
+    padding: 4px;
+}
+input[type="checkbox"] :focus +label:before{
+	box-shadow: 0 0 .1em .1em #58a;
+}

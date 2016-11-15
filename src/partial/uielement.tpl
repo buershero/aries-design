@@ -185,7 +185,28 @@
 			</div>
 		</div>
 		<!-- /边框内圆角 -->
-		
+	</div>
+	<div class="row">
+		<!--check 自定义复选框 -->
+		<div class="col-xs-6">
+			<div class="panel">
+				<div class="panel-body">
+					<div class="title">
+						<h3>check 自定义复选框</h3>
+						<h5>点击/鼠标移入元素，弹出气泡式浮层。</h5>
+					</div>
+					<blockquote>
+						<p>此处重点提到inherit，对于伪元素来讲，会取生成该伪元素的宿主元素</p>
+						<small><strong>举例</strong> 要把表单元素的字体设定为与页面的其他部分相同，你并不需要重复指定字体属性，只需要用inherit继承即可 </small>
+					</blockquote>
+					<div class="input">
+						<input type="checkbox" class="aries_checkbox" id="awesome" />
+						<label for="awesome">Awesome!</label>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /check 自定义复选框 -->
 	</div>
 	
 </div>
